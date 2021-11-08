@@ -16,6 +16,7 @@ else{
 ```
 - <p style="color:rgb(199, 39, 39);">Remember One Thing here we don't use '=='. Instead of these we use '==='</p>
 
+<br><br>
 ### Switch-Case Statement
 
 Switch-Case Statement in JavaScript is also same as like C programming
@@ -46,4 +47,11 @@ var day = prompt('Enter day (Mon,Tues,...) : ');
           default :
             console.log('Wrong Prompt');
         }
+```
+<br><br>
+### Ternary Operators in JavaScript
+
+```
+var age = prompt("Enter your age : ");
+age>=18 ? console.log('You Can vote') : console.log('You Can\'t vote');
 ```
