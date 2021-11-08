@@ -1,15 +1,17 @@
-var age = prompt("Enter your age : ");
-if (age >= 18 && age < 60) {
-    console.log('You can vote');
-} else if (age >= 60 && age <= 100) {
-    console.log('You are a senior citizen');
-} else {
-    console.log('You can\'t vote');
-}
+/* If Else Statements */
+// var age = prompt("Enter your age : ");
+// if (age >= 18 && age < 60) {
+//         console.log('You can vote');
+//     } else if (age >= 60 && age <= 100) {
+//             console.log('You are a senior citizen');
+//         } else {
+//                 console.log('You can\'t vote');
+//             }
 
 
 /* Comment the upper code and  Uncomment the below code and run it */
 
+/* Switch Cse Statements*/
 //var day = prompt('Enter day (Mon,Tues,...) : ');
 //switch (day) {
 //    case 'Mon':
@@ -36,3 +38,8 @@ if (age >= 18 && age < 60) {
 //    default:
 //        console.log('Wrong Prompt');
 //}
+
+/* Ternary Operators  */
+
+var age = prompt("Enter your age : ");
+age>=18 ? console.log('You Can vote') : console.log('You Can\'t vote');
